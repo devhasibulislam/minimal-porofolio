@@ -1,0 +1,132 @@
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about__section__body {
+    height: 95.7vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.about__section__body h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.about__section__body p {
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(190, 49, 68);
+    font-weight: 200;
+}
+
+.nav-item a:hover {
+    background: #495a82;
+}
+
+.my__projects {
+    background-color: #45567D;
+}
+
+.my__project__heading {
+    border-bottom: 1px solid white;
+}
+
+.my__project__heading h1 {
+    color: white;
+}
+
+.my__project__image img {
+    width: 100%;
+}
+
+.my__project__footer {
+    background-color: rgb(48, 56, 65);
+    padding: 20px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.my__project__footer::before {
+    content: '<';
+    position: absolute;
+    color: #ff7f50;
+    font-size: 25px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.my__project__footer:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.my__project__footer::after {
+    content: '/>';
+    position: absolute;
+    color: #ff7f50;
+    font-size: 25px;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.my__project__footer:hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.my__project__footer span {
+    color: white;
+    font-size: 20px;
+}
+
+.contact__section .about__section__body {
+    border-bottom: 3px solid #dc3545;
+}
+
+.social__contact {
+    margin-top: 20px;
+}
+
+.social__contact a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 150px;
+    color: aliceblue;
+    transition: all 0.3s ease-out;
+}
+
+.social__contact a i {
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.social__contact a:hover {
+    transform: translateY(10px);
+}
+
+.footer__section {
+    background-color: rgb(48, 56, 65);
+    padding-top: 20px;
+}
+
+.footer__section .row .lead {
+    color: white;
+}
+
+.footer__section .row a {
+    text-decoration: none;
+    color: white;
+}
